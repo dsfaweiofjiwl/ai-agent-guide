@@ -22,3 +22,6 @@ Thumbs.db
 *.db-shm
 *.db-wal
 dev.db
+
+# npm cache
+.npm-cache/

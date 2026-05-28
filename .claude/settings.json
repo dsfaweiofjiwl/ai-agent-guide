@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/what-is-ai-agent)",
+      "Bash(cd \"c:\\\\Users\\\\杨尚学\\\\Desktop\\\\ai-agent-guide\\\\ai-agent-guide\" && head -n 334 db/seed.ts > db/seed_new.ts && cat /tmp/new_article.txt >> db/seed_new.ts && tail -n +510 db/seed.ts >> db/seed_new.ts && mv db/seed_new.ts db/seed.ts)",
+      "Read(//c/tmp/**)",
+      "Bash(npx tsx *)",
+      "Bash(curl -s http://localhost:3001/env-setup)",
+      "Bash(python -c \"from PIL import Image; print\\('pillow available'\\)\")",
+      "Bash(python -m pip install Pillow)",
+      "Bash(cp \"c:/Users/杨尚学/Desktop/微信图片_20260527132415_90_2.jpg\" \"c:/Users/杨尚学/Desktop/ai-agent-guide/ai-agent-guide/public/images/python-path.png\")",
+      "Bash(python -c \"from PIL import Image; print\\('ok'\\)\")",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3001/skill-recommend)",
+      "Bash(ssh -o *)",
+      "Bash(curl -sk -o /dev/null -w \"HTTP: %{http_code}, time: %{time_total}s\\\\n\" --connect-timeout 10 https://yangshangxue.asia)",
+      "Bash(curl -sk -o /dev/null -w \"HTTP: %{http_code}\\\\n\" --connect-timeout 10 -H \"Cache-Control: no-cache, no-store\" -H \"Pragma: no-cache\" \"https://yangshangxue.asia?_t=$\\(date +%s\\)\")",
+      "Bash(curl -sk -o /dev/null -w \"HTTP状态码: %{http_code}\\\\n\" --connect-timeout 10 https://yangshangxue.asia)",
+      "Bash(curl -s --connect-timeout 10 http://47.108.144.245/)",
+      "Bash(cat \"C:\\\\\\\\Users\\\\\\\\杨尚学\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Temp\\\\\\\\claude\\\\\\\\c--Users-----Desktop-ai-agent-guide\\\\\\\\a0569f62-9837-44f8-9f9d-3b3e251ca467\\\\\\\\tasks\\\\\\\\bww9qujid.output\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\杨尚学\\Desktop"
+    ]
+  }
+}
